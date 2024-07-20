@@ -1,0 +1,22 @@
+curl 'https://connect.garmin.com/activitylist-service/activities/search/activities?activityType=running&limit=200&excludeChildren=false&start=0&_=1720982094091' \
+  -H 'accept: application/json, text/javascript, */*; q=0.01' \
+  -H 'accept-language: en' \
+  -H 'authorization: Bearer ' \
+  -H 'baggage: sentry-environment=prod,sentry-release=connect%405.2.133,sentry-public_key=' \
+  -H 'cookie: ' \
+  -H 'di-backend: connectapi.garmin.com' \
+  -H 'dnt: 1' \
+  -H 'nk: NT' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://connect.garmin.com/modern/activities?activityType=running' \
+  -H 'sec-ch-ua: "Not/A)Brand";v="8", "Chromium";v="126"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'sentry-trace: dd4974401907408a8a39f7c57fb01458-950e41b52953cc86' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36' \
+  -H 'x-app-ver: 5.2.2.0' \
+  -H 'x-lang: en-US' \
+  -H 'x-requested-with: XMLHttpRequest' > garmin_result.json
